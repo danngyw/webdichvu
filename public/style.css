@@ -1,0 +1,232 @@
+html{
+	-webkit-text-size-adjust: 100%;
+}
+img{
+    max-width: 100%;
+}
+
+@media (min-width: 992px){
+    .navbar{
+        min-height: 1200px;
+        position: fixed;
+    }
+    .navbar,
+    .navbar-collapse,
+    .navbar-collapse ul{
+        display: block !important;
+    }
+    .navbar-collapse ul li{
+        display: block;
+        clear: both;
+        padding: 0;
+    }
+    nav{
+        width: 250px;
+        float: left;
+    }
+    .container{
+        width: auto;
+        margin-left: 250px;
+    }
+    .full-row{
+        padding: 50px  30px ;
+        margin: 0 15%;
+    }
+    .container-site{
+        width:  calc(100% - 250px);
+        float: right;
+    }
+    .tour-item img{
+        width: 100%;
+        height: 350px;
+    }
+    .service-detail img{
+        max-width: 350px;
+    }
+}
+
+.navbar-collapse ul li{
+    padding: 0;
+}
+ul.navbar-nav{
+    margin: 0 auto;
+}
+nav ul li{
+	list-style: none;
+	padding: 10px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #000;
+}
+.container{
+    width: auto;
+}
+
+.banner{
+	background-image: url(img/banner.jpg);
+	width: 100%;
+	height: 350px;
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner .fill{
+    opacity: 1.5;
+    background: #06060675;
+    height: 350px;
+}
+h1{
+	font-size: 25.0pt;
+    line-height: 3.2;
+    font-weight: 400;
+    padding-bottom: 20px;
+
+    text-transform: uppercase;
+    text-decoration: inherit;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    margin: 0;
+    padding: 0;
+     font-family: 'Oswald', sans-serif;
+     color: #fff;
+     text-align: center;
+     padding-top: 90px;
+}
+h1:first-child:before {
+    border-bottom-width: 12px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(255,82,82,1);
+
+    display: block;
+}
+.call{
+	text-align: center;
+}
+h2{
+	color: #38761d;
+    font-family: 'Oswald', sans-serif;;
+    font-weight: normal;
+    vertical-align: baseline;
+    font-size: 38.0pt;
+    pointer-events: all;
+    line-height: 1.5;
+    text-transform: uppercase;
+    font-style: inherit;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 25px;
+}
+.phoneNumber a{
+	color: #ff0000;
+    font-family: 'Oswald';
+    font-weight: normal;
+    vertical-align: baseline;
+    font-size: 38.0pt;
+    pointer-events: all;
+    line-height: 1.5;
+    text-transform: uppercase;
+    font-style: inherit;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    text-decoration: none;
+
+}
+.call{
+
+    border-bottom: 3px solid red;
+}
+.service-detail img{
+    max-width: 100%;
+}
+.full-row{
+    padding: 35px 0;
+}
+.service-detail h2{
+    text-align: center;
+    font-family: Oswald;
+    font-size: 29pt;
+    line-height: 1.42;
+    font-weight: 400;
+    color: rgba(31,31,31,1);
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.full{
+    width: 100%;
+}
+.red-title{
+ background: rgba(211,65,63,1);
+ display: block;
+ text-align: center;
+ padding: 30px;
+}
+
+.red-title h2{
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    font-size: 30pt;
+}
+.tour-item{
+    margin: 35px 0;
+}
+.gioi-thieu{
+    background: #38761d;
+    color: #fff;
+    padding: 0px;
+     font-family: 'Oswald', sans-serif;
+     font-size: 17px;
+}
+.gioi-thieu ol li{
+    list-style: square;
+}
+.social{
+    display: block;
+    clear: both;
+    margin-top: 50px;
+}
+.social img{
+    width: 25px;
+}
+.social a{
+    text-decoration: none;
+    color: #000;
+}
+.footer{
+    font-family: 'Oswald', sans-serif;
+}
+.footer a,
+.footer p{
+    color: #818181;
+    text-decoration: none;
+}
+@media only screen and (max-width: 479px){
+
+    h1 {
+        font-size: 23pt;
+        line-height: 1.3em;
+        padding-top: 85px;
+    }
+    h2{
+        font-size: 29pt;
+    }
+    .content{
+        padding: 10px ;
+    }
+    .banner{
+        height: 250px;
+    }
+}
+@media only screen and (max-width: 700px){
+    h1 {
+        font-size: 23pt;
+        line-height: 1.3em;
+        padding-top: 85px;
+    }
+    .banner .fill{
+        height: 250px;
+    }
+    .banner{
+        height: 250px;
+    }
+}
